@@ -6,7 +6,15 @@ using namespace std;
 
 void Read(vector <string> vektor1)
 {
-
+ifstream in("txt.txt");
+if (in.is_open())
+{
+    cout << "fail open" << endl;
+}
+ else
+    {
+        cout << "file not open" << endl;
+    }
 }
 void Output(vector <string> vektor1)
 {
