@@ -31,10 +31,10 @@ out.close();
 int main()
 {
     vector <string> vektor1;
-    string el1 = "first";
-    string el2 = "second";
-    vektor1.push_back(el1);
-    vektor1.push_back(el2);
+   // string el1 = "first";
+    //string el2 = "second";
+    //vektor1.push_back(el1);
+    //vektor1.push_back(el2);
     Read(vektor1);
     Output(vektor1);
     Writing(vektor1);
