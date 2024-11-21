@@ -18,7 +18,14 @@ for (auto it = vektor1.begin(); it != vektor1.end(); it++)
 }
 void Writing(vector <string> vektor1)
 {
-
+ofstream out ("out.txt");
+for (auto element = vektor1.begin(); element != vektor1.end(); element++)
+{
+    string x = *element;
+    out << x;
+    out << " ";
+}
+out.close();
 }
 
 int main()
