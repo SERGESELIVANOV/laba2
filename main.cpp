@@ -9,7 +9,18 @@ void Read(vector <string> vektor1)
 ifstream in("txt.txt");
 if (in.is_open())
 {
-    cout << "fail open" << endl;
+    size_t vektor1size = 0;
+    while (!in.eof())
+    {
+        string element;
+        in >> element;
+        vektor1.push_back(element);
+        vektor1size ++;
+    }
+    for  (size_t i=0; i<vektor1size; i++)
+    {
+        cout << vektor1[i] << endl;
+    }
 }
  else
     {
