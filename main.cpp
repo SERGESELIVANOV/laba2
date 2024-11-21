@@ -17,10 +17,7 @@ if (in.is_open())
         vektor1.push_back(element);
         vektor1size ++;
     }
-    for  (size_t i=0; i<vektor1size; i++)
-    {
-        cout << vektor1[i] << endl;
-    }
+
 }
  else
     {
